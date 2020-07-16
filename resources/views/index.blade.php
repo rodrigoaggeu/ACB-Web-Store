@@ -20,6 +20,8 @@
   <!-- Custom CSS -->
   <link href="acb_web_store/css/stylish-portfolio.min.css" rel="stylesheet">
 
+  <link rel="stylesheet" href="acb_web_store/vendor/font-awesome/css/font-awesome.min.css">
+
 </head>
 
 <body id="page-top">
@@ -85,7 +87,7 @@
   </section>
 
   <!-- Services -->
-  <section class="content-section bg-primary text-white text-center" id="services">
+  <section class="content-section bg-rosegold2 text-black text-center" id="services">
     <div class="container">
       <div class="content-section-heading">
         <h3 class="text-secondary mb-0">Serviços</h3>
@@ -99,7 +101,7 @@
           <h4>
             <strong>Responsive</strong>
           </h4>
-          <p class="text-faded mb-0">Looks great on any screen size!</p>
+          <p class="text-black mb-0">Looks great on any screen size!</p>
         </div>
         <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
           <span class="service-icon rounded-circle mx-auto mb-3">
@@ -108,7 +110,7 @@
           <h4>
             <strong>Redesigned</strong>
           </h4>
-          <p class="text-faded mb-0">Freshly redesigned for Bootstrap 4.</p>
+          <p class="text-black mb-0">Freshly redesigned for Bootstrap 4.</p>
         </div>
         <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
           <span class="service-icon rounded-circle mx-auto mb-3">
@@ -117,7 +119,7 @@
           <h4>
             <strong>Favorited</strong>
           </h4>
-          <p class="text-faded mb-0">Millions of users
+          <p class="text-black mb-0">Millions of users
             <i class="fas fa-heart"></i>
             Start Bootstrap!</p>
         </div>
@@ -128,19 +130,25 @@
           <h4>
             <strong>Question</strong>
           </h4>
-          <p class="text-faded mb-0">I mustache you a question...</p>
+          <p class="text-black mb-0">I mustache you a question...</p>
         </div>
       </div>
     </div>
   </section>
 
   <!-- Callout -->
-  <section class="callout">
+  <!-- <section class="callout">
     <div class="container text-center">
       <h2 class="mx-auto mb-5">Welcome to
         <em>your</em>
         next website!</h2>
       <a class="btn btn-primary btn-xl" href="https://startbootstrap.com/themes/stylish-portfolio/">Download Now!</a>
+    </div>
+  </section> -->
+  <section class="callout text-white">
+    <div class="container text-center">
+      <h2 class="mx-auto mb-5"> Sejam bem-vindas a nossa loja virtual!</h2>
+      <a class="btn btn-light btn-xl" href="https://startbootstrap.com/themes/stylish-portfolio/">Confira aqui nossos produtos!</a>
     </div>
   </section>
 
@@ -201,7 +209,7 @@
   </section>
 
   <!-- Call to Action -->
-  <section class="content-section bg-primary text-white">
+  <section class="content-section bg-rosegold2 text-black">
     <div class="container text-center">
       <h2 class="mb-4">The buttons below are impossible to resist...</h2>
       <a href="#!" class="btn btn-xl btn-light mr-4">Click Me!</a>
@@ -219,44 +227,44 @@
   </div>
 
   <!-- Footer -->
-  <footer class="footer text-center">
+  <footer class="footer text-center bg-rosegold2">
     <div class="container">
       <ul class="list-inline mb-5">
         <li class="list-inline-item">
-          <a class="social-link rounded-circle text-white mr-3" href="#!">
-            <i class="icon-social-facebook"></i>
+          <a class="social-link rounded-circle text-dark mr-3 bg-white" href="#!">
+          <i class="fa fa-facebook" aria-hidden="true"></i>
           </a>
         </li>
         <li class="list-inline-item">
-          <a class="social-link rounded-circle text-white mr-3" href="#!">
-            <i class="icon-social-twitter"></i>
+          <a class="social-link rounded-circle text-dark mr-3 bg-white" href="#!">
+          <i class="fa fa-instagram" aria-hidden="true"></i>
           </a>
         </li>
         <li class="list-inline-item">
-          <a class="social-link rounded-circle text-white" href="#!">
-            <i class="icon-social-github"></i>
+          <a class="social-link rounded-circle text-dark bg-white" href="#!">
+            <i class="fa fa-whatsapp" aria-hidden="true"></i>           
           </a>
         </li>
       </ul>
       <p class="text-muted small mb-0">Copyright &copy; Your Website 2020</p>
     </div>
-  </footer>
+      </footer>
 
   <!-- Modal marcas parceiras -->
   <div class="modal fade bd-example-modal-xl" id="modalMarcasParceiras" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-xl">
-      <div class="modal-content">
+      <div class="modal-content bg-rosegold2">
         <!-- <div class="modal-header">
           <h5 class="modal-title" id="exampleModalLabel">Marcas Parceiras</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
             <span aria-hidden="true">&times;</span>
           </button>
         </div> -->
-        
+
         <div class="modal-body">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
-          <span aria-hidden="true">&times;</span>
-        </button>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+            <span aria-hidden="true">&times;</span>
+          </button>
           <section class="content-section text-black text-center" id="services">
             <div class="container">
               <div class="content-section-heading">
@@ -296,6 +304,42 @@
                   </span>
                   <h4>
                     <strong>Marca 4</strong>
+                  </h4>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+                  <span class="service-icon rounded-circle mx-auto mb-3">
+                    <i class="icon-screen-smartphone"></i>
+                  </span>
+                  <h4>
+                    <strong>Marca 5</strong>
+                  </h4>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+                  <span class="service-icon rounded-circle mx-auto mb-3">
+                    <i class="icon-pencil"></i>
+                  </span>
+                  <h4>
+                    <strong>Marca 6</strong>
+                  </h4>
+
+                </div>
+                <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+                  <span class="service-icon rounded-circle mx-auto mb-3">
+                    <i class="icon-like"></i>
+                  </span>
+                  <h4>
+                    <strong>Marca 7</strong>
+                  </h4>
+
+                </div>
+                <div class="col-lg-3 col-md-6">
+                  <span class="service-icon rounded-circle mx-auto mb-3">
+                    <i class="icon-mustache"></i>
+                  </span>
+                  <h4>
+                    <strong>Marca 9</strong>
                   </h4>
                 </div>
               </div>
